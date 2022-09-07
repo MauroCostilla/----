@@ -8,6 +8,7 @@
 	background-color: white;
 	z-index: 100;
 	width: 100%;
+	height: auto;
 	
 
 }
@@ -16,6 +17,7 @@
 .header-nav{
 	
 	width: 100%;
+	height: auto;
 	display: grid;
 	grid-template-columns:  1.5fr 2fr;
 	align-content: center;
