@@ -9,137 +9,47 @@
 	z-index: 100;
 	width: 100%;
 	height: auto;
-	
-
 }
+.container-fluid{
+	width: 80%;
+}
+.nav-item{
+	margin-right: 50px;
 	
+}
+.nav-link{
+	color: #000;
+	
+}
+.nav-link:hover{
+	color: red;
+}
 
-.header-nav{
-	
-	width: 100%;
+/*slider*/
+.slider{
+   padding-top: 120px;
+}
+.texto-slider{
+	color: #000;
+}
+
+/*cartas*/
+
+.carta{
 	height: auto;
-	display: grid;
-	grid-template-columns:  1.5fr 2fr;
-	align-content: center;
-	align-items: center;
-	grid-template-areas: "logo nav" ;
-	margin-top: 0;
-	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-	
-	
-	
-	
-}
-.nav{
-	display: flex;
-	list-style: none;
-	flex-wrap: wrap;
-	grid-area: nav;
-	
 }
 
-.logo{
-	grid-area: logo;
-	margin-left: 30%;
-	
-	
+.texto-carta h5 {
+	text-align: center;
 }
 
-.nav-li{
-	border-radius: 3px;
-	margin: 0 30px;
-	font-family:'Rubik',sans-serif;
+.texto-carta p{
+	text-align: center;
 }
-
-.nav-li a{
-	text-decoration: none;
-	color: black;
-}
-/*futuro slider*/
-.slider-div{
-	display: flex;
-	width: 100%;
-	padding-top: 150px;
-	justify-content: center;
-	align-items: center;
-	
 	
 
-}
-/*Cartas*/
-.cards{
-	display: flex;
-}
-.card {
-    position: relative;
-    width: 300px;
-    height: 350px;
-    margin: 20px;
 
-}
-
-.card .face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: .5s;
-}
-
-.card .front {
-    transform: perspective(600px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000;
-}
-
-.card .front img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.card .front h3 {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    background: rgba(0,0,0,.4);
-    text-align: center;
-}
-
-.card .back {
-    transform: perspective(600px) rotateY(180deg);
-    background: rgb(3, 35, 54);
-    padding: 15px;
-    color: #f3f3f3;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-    box-shadow: 0 5px 10px #000;
-}
-
-.card .back h3 {
-    font-size: 30px;
-    margin-top: 20px;
-    letter-spacing: 2px;
-}
-
-.card .back p {
-    letter-spacing: 1px;
-} 
-
-.card:hover .front {
-    transform: perspective(600px) rotateY(180deg);
-}
-
-.card:hover .back {
-    transform: perspective(600px) rotateY(360deg);
-} 
+	
 /*separador*/
 .separador{
    width: 100%;
