@@ -7,6 +7,7 @@
 	<link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
@@ -84,91 +85,122 @@
 			
 <!--cartas-->
 <a name="trabajos"></a>
-<div class="card-group">
-	<div class="card carta">
-	  <img src="./imagenes/carta1.jpg" class="card-img-top" alt="carta1">
-	  <div class="card-body texto-carta">
-		<h5 class="card-title">Fabricación de tableros eléctricos</h5>
-		<p class="card-text">Fabricación de tableros de todo tipo y tamaño a pedido sobre planos, con fines comerciales e industriales.</p>
-		</div>
+<div class="div-cartas">
+	<div data-aos="zoom-in-up" class="card mb-3 aos-init aos-animate mx-auto pt-5 carta " style="max-width: 540px;">
+		<div class="row g-0">
+	  	<div class="col-md-4">
+			<img src="./imagenes/carta1.jpg" class="img-fluid rounded-start" alt="carta1">
 	</div>
-	<div class="card carta">
-		<img src="./imagenes/carta2.jpg" class="card-img-top" alt="carta2">
-		<div class="card-body texto-carta">
+	  <div class="col-md-8">
+		<div class="card-body">
+		  <h5 class="card-title">Fabricación de tableros eléctricos</h5>
+		  <p class="card-text">Fabricación de tableros de todo tipo y tamaño a pedido sobre planos, con fines comerciales e industriales.</p>
+		  <p class="card-text"><small class="text-muted"><a class="nav-link" href="contacto.html">Contacto</a></small></p>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!--carta 2-->
+  <div data-aos="zoom-in-up" class="card mb-3 aos-init aos-animate mx-auto pt-5 carta" style="max-width: 540px;">
+	<div class="row g-0">
+	  <div class="col-md-4">
+		<img src="./imagenes/carta2.jpg" class="img-fluid rounded-start" alt="carta2">
+	  </div>
+	  <div class="col-md-8">
+		<div class="card-body">
 		  <h5 class="card-title">Ingeniería y proyectos a medida</h5>
 		  <p class="card-text">Nuestro objetivo para nuestro cliente es lograr la mejor relación costo / beneficio.</p>
-		  </div>
-	  </div>
-	<div class="card carta">
-	  <img src="./imagenes/carta3.jpg" class="card-img-top" alt="carta3">
-	  <div class="card-body texto-carta">
-		<h5 class="card-title">Transferencias automáticas de equipos</h5>
-		<p class="card-text">Utilizamos materiales de excelente calidad y hacemoos hincapié en las terminaciones y detalles.</p>
-	 </div>
-	</div>
-	<div class="card carta">
-		<img src="./imagenes/carta4.jpg" class="card-img-top" alt="carta4">
-		<div class="card-body texto-carta">
-		  <h5 class="card-title">Grupos electrógenos – EMEVE</h5>
-		  <p class="card-text">Instalación de equipos, mantenimiento preventivo y reparaciones de equipos existentes.</p>
+		  <p class="card-text"><small class="text-muted"><a class="nav-link" href="contacto.html">Contacto</a></small></p>
 		</div>
 	  </div>
+	</div>
   </div>
+  <!--carta3-->
+  <div data-aos="zoom-in-up" class="card mb-3 aos-init aos-animate mx-auto pt-5 carta" style="max-width: 540px;">
+	<div class="row g-0">
+	  <div class="col-md-4">
+		<img src="./imagenes/carta3.jpg" class="img-fluid rounded-start" alt="carta3">
+	  </div>
+	  <div class="col-md-8">
+		<div class="card-body">
+		  <h5 class="card-title">Transferencias automáticas de equipos</h5>
+		  <p class="card-text">Utilizamos materiales de excelente calidad y hacemoos hincapié en las terminaciones y detalles.</p>
+		  <p class="card-text"><small class="text-muted"><a class="nav-link" href="contacto.html">Contacto</a></small></p>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <!--carta4-->
+  <div data-aos="zoom-in-up" class="card mb-3 aos-init aos-animate mx-auto pt-5 carta" style="max-width: 540px;">
+	<div class="row g-0">
+	  <div class="col-md-4">
+		<img src="./imagenes/carta4.jpg" class="img-fluid rounded-start" alt="carta4">
+	  </div>
+	  <div class="col-md-8">
+		<div class="card-body">
+		  <h5 class="card-title">Grupos electrógenos – EMEVE</h5>
+		  <p class="card-text">Instalación de equipos, mantenimiento preventivo y reparaciones de equipos existentes.</p>
+		  <p class="card-text"><small class="text-muted"><a class="nav-link" href="contacto.html">Contacto</a></small></p>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+	
 	
 <!--separador-->
 	  
-<div class="separador"></div>
+<div data-aos="fade-right" class="separador"></div>
  
 <!--nosotros-->
 
 <a name="nosotros"></a>
 	<div class="nosotros"> 
 		<div class="nosotros_txt">
-			<h3 class="animate__animated  animate__backInLeft">
-				LE BRINDAMOS A SU EMPRESA UNA AMPLIA GAMA DE SERVICIOS EN MATERIA DE TABLEROS ELÉCTRICOS.
-			</h3>
-		
-		
-			<p>
+			
+				<h3 data-aos="zoom-in-up">
+					LE BRINDAMOS A SU EMPRESA UNA AMPLIA GAMA DE SERVICIOS EN MATERIA DE TABLEROS ELÉCTRICOS.
+				</h3>
+			<p data-aos="zoom-in-up">
 				Brindamos una solución integral a sus proyectos, ofreciendo asesoramiento personalizado haciendo foco en los resultados.
 			</p>
 		
 		
-			<p>
+			<p data-aos="zoom-in-up">
 				Somos una empresa  con una trayectoria de más de 20 años en el mercado; dedicada al proyecto, fabricación, ensayo y puesta en marcha de tableros eléctricos.
 			</p>
 		
 		
 		
-			<p>
+			<p data-aos="zoom-in-up">
 				Nuestro equipo de profesionales está altamente capacitado y cuenta con una vasta experiencia proyectando y fabricando los más variados tipos y modelos para diversas prestaciones.
 			</p>
 		
 		
-			<p>
+			<p data-aos="zoom-in-up">
 				Tablero Eléctrico | Emeve cumplen con los requerimientos y estándares de empresas de primera línea; desde compañías de generación, transporte y distribución de energía eléctrica, como así también compañías de telefonía fija y celular, cadenas de súper e hipermercados, cadenas farmacéuticas, locales de comida rápida, locales de cafetería, industrias químicas, laboratorios, frigoríficos, empresas metalúrgicas, industrias del plásticos, empresas del rubro alimenticio y del petrolero, estaciones de servicio, hoteles, edificios de oficinas o viviendas y los principales bancos que operan en nuestro país.
 			</p>
 		
 		
-			<p>
+			<p data-aos="zoom-in-up">
 				Nuestros tableros eléctricos están instalados en todas partes del país y países limítrofes, han sido montados en máquinas o equipos que se han exportado a todas partes del mundo. De esta manera EMEVE es una empresa con amplia presencia en el mercado del rubro eléctrico.
 			</p>
 		</div>
 	
 	
 	
-		<div class="nosotros_logo">
+		<div data-aos="fade-right" class="nosotros_logo">
 			<img src="./imagenes/logo.jpg">
 		</div>
 		<div>
 			<div class="nosotros_empresa">
-				<h4>
+				<h4 data-aos="fade-right">
 					Tableros Eléctricos | Emeve
 				</h4>
-				<p>
+				<p data-aos="fade-right">
 					+ 20 años en el mercado
 				</p>
-				<p>+ Trayectora nacional e
+				<p data-aos="fade-right">+ Trayectora nacional e
 					internacional
 				</p>
 					
@@ -205,5 +237,11 @@
 			
 	</footer>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000
+		});
+	  </script>
 </body>
 </html>

@@ -36,16 +36,14 @@
 /*cartas*/
 
 .carta{
-	height: auto;
+	text-align: center;
+	
 }
 
-.texto-carta h5 {
-	text-align: center;
-}
+	
 
-.texto-carta p{
-	text-align: center;
-}
+
+
 	
 
 
