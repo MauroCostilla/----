@@ -137,7 +137,14 @@
 .footer-nav li{
 	margin-top: 40px;
 }
+.footer-nav a{
+	text-decoration: none;
+	color: #000;
 
+}
+.footer-nav a:hover{
+	color: red;
+}
 .datos-footer{
 	list-style: none;
 	grid-area: datos;
@@ -164,7 +171,8 @@
 /*Pagina de contacto*/
 
 .formulario{
-	padding-top: 250px;
+	padding-top: 150px;
+	padding-bottom: 100px;
 }
 .mapa_contacto{
 	width: 100%;
@@ -275,18 +283,7 @@ grid-template-rows: 0.5fr 2fr;
 }
 
 /*pagina de contacto*/
- .formulario{
-	padding-top: 50px;
-	
- }
 
-.formularioscontacto{
-	width: 100%;
-	
-}
-.formularioscontacto img{
-	width: 100%;
-}
 
 .mapa_contacto{
 	width: 100%;
